@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'MetropolisMedium';
+    src: url('../fonts/MetropolisMedium.eot');
+    src: url('../fonts/MetropolisMedium.eot') format('embedded-opentype'),
+    url('../fonts/MetropolisMedium.woff2') format('woff2'),
+    url('../fonts/MetropolisMedium.woff') format('woff'),
+    url('../fonts/MetropolisMedium.ttf') format('truetype'),
+    url('../fonts/MetropolisMedium.svg#MetropolisMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'MetropolisLight';
+    src: url('../fonts/MetropolisLight.eot');
+    src: url('../fonts/MetropolisLight.eot') format('embedded-opentype'),
+    url('../fonts/MetropolisLight.woff2') format('woff2'),
+    url('../fonts/MetropolisLight.woff') format('woff'),
+    url('../fonts/MetropolisLight.ttf') format('truetype'),
+    url('../fonts/MetropolisLight.svg#MetropolisLight') format('svg');
+}
+
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot') format('embedded-opentype'),
+    url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+    url('../fonts/BebasNeueRegular.woff') format('woff'),
+    url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+    url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.65);
+    padding: 25px 23px 12px 23px;
+}
+
+.container .container_2 {
+    min-width: 1170px;
+    margin: auto;
+}
+
+.br {
+    border-bottom: 2px solid #464646;
+}
+
+.container:after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+header .content {
+    float: right;
+    display: inline-block;
+    min-width: 170px;
+    background-color: #fa090a;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+    margin: 0 15px;
+}
+
+
+header .container a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'MetropolisMedium';
+}
+
+header .content_input {
+    background-color: #ebebeb;
+    display: inline-block;
+    line-height: 44px;
+    float: left;
+    width: 80%;
+    text-transform: uppercase;
+    padding-left: 17px;
+    border: none;
+}
+
+.br a i {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.content button {
+    background-color: #ebebeb;
+    line-height: 42px;
+    width: 20%;
+    float: right;
+    border: none;
+    padding: 0 10px;
+}
+
+header .container_2 {
+    padding: 18px 18px;
+    margin: 20px 20px;
+}
+
+header .nav li {
+    display: inline-block;
+    float: left;
+    padding: 1px 18px 8px 18px;
+
+}
+
+header .nav a {
+    font-family: 'BebasNeueRegular';
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff
+}
+
+header .nav li:hover {
+    border-bottom: 2px solid red;
+}
+
+header .social li {
+    margin: -5px 8px 4px 8px;
+    width: 35px;
+    height: 32px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    background-color: red;
+
+}
+
+header .social i {
+    display: inline-block;
+    margin-top: 5px;
+    color: black;
+    width: 30px;
+    font-size: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.fab fa-facebook-f {
+    display: inline-block;
+    margin-top: 15px;
+    color: black;
+    width: 30px;
+    font-size: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+.nav .social:after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+header .social_i:last-child {
+    padding: 10px 0 0 10px;
+}
+
+.container_owl {
+    max-width: 1164px;
+    margin: auto;
+
+}
+
+.container_owl p {
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 24px;
+    padding: 25px 0;
+    margin: 54px 0;
+
+}
+
+.owl-carousel {
+    max-width: 1050px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 28px 5px rgba(0, 0, 0, 0.1);
+    width: 1047px;
+    height: 373px;
+}
+
+.owl-carousel .owl-item .img {
+    width: 329px ;
+    height: 373px;
+    float: left;
+}
+
+.owl-carousel .text dl {
+    padding: 11px 0 11px 54px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: left;
+}
+
+.owl-carousel dir {
+    color: #000000;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+    margin: 33px 62px 75px 54px;
+
+}
+
+.text {
+    float: right;
+    width: 718px;
+}
+
+.text:after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background-color: transparent;
+}
+
+.owl-carousel button.owl-dot span {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 11px;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-carousel button.owl-dot.active span {
+    background-color: red;
+    width: 7px;
+    height: 7px;
+}
+
+.owl-nav .owl-prev:after {
+    display: block;
+    content: "<";
+    font-size: 30px;
+    color: red;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    left: -60px;
+    top: 40%;
+}
+
+.owl-nav .owl-next:after {
+    display: block;
+    content: ">";
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    right: -60px;
+    top: 40%;
+}
